@@ -1,5 +1,35 @@
-@media (max-width: 480px) {
-
-
-
+.page-style {
+    background-color: #d3d3d3;
+    font-family: serif;
+}
+.page-style h3 {
+    color: #00aca7;
+    font-weight: bold;
+}
+.block {
+    background-color: white;
+    margin: 5;
+}
+.nav-color {
+    background-color: #00aca7;
+    color: white;
+    font-weight: bold;
+    padding:100px
+}
+li {
+    display: inline;
+}
+.main-title{
+    padding: 15px;
+    background-color: #00aca7;
+    color: white;
+    font-size: 25px;
+    font-weight: bold; 
+}
+ul {
+    padding: 10px;
+    background-color: white;
+}
+.right{
+    text-align: right;
 }
