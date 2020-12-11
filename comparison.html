@@ -33,7 +33,7 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-dark" href="comparison.html">Comparison</a>
+                    <a class="nav-link text-dark" href="#">Comparison</a>
                 </li>
                 <li class="nav-item ">
                     <a class="nav-link text-dark" href="#">Data</a>
@@ -41,54 +41,37 @@
             </ul>
         </div>
     </nav>
-    <div class = "container">
+    <div class = "container block">
         <div class = 'row'> 
-          <div class = 'col-md-8'>
-            <div class = 'box block'>
-                <h3 class="header-style">Summary: Latitude vs. X</h3>
+            <div class = 'col-md-12'>
+                <h3 class="header-style">Comparison: Latitude vs X</h3>
                 <hr/>
-                <img src = "assets/images/Fig1.png" class = "img-align" alt='Latitude vs. Max Temperature'>
-                The purpose of this project was to analyze how weather
-                changes as you get closer to the equator. To accomplish
-                this analysis, we first pulled data from the OpenWeatherMAP 
-                API to assemble a dataset on over 500 cities.
-                <br><br>
-                After assembling the dataset, we used Matplotlib to plot 
-                various aspects of the weather vs. latitude. Factors we looked at 
-                included: temperature, cloudiness, wind speed, and humidity. This 
-                site provides the source data and visualizations created as part 
-                of the analysis, as well as explanations and descriptions of any 
-                trends and correlations witnessed.
+                Click any plot to get an in-depth analysis 
+                <br><br><br>
             </div>
-         </div>
-        
-        
-        <div class = 'col-md-4'>
-            <div class = 'box block'>
-                <h3 class="header-style">Visualizations</h3>
-                <hr/>
-                <div class = 'row'>
-                    <div class = 'col-md-6'>
-                        <a href='#'><img class = 'compare-img' src = "assets/images/Fig1.png" alt='Latitude vs. Max Temperature'></a>
-                    </div>
-                    <div class = 'col-md-6'>
-                        <a href='#'><img class = 'compare-img' src = "assets/images/Fig2.png" alt='Latitude vs. Humidity'></a>
-                    </div>
-                </div> 
-                <div class = 'row'> 
-                    <div class = 'col-md-6'> 
-                        <a href='#'><img class = 'compare-img' src = "assets/images/Fig3.png" alt='Latitude vs. Cloudiness'></a>
-                    </div>
-                    <div class = 'col-md-6'>
-                        <a href='#'><img class = 'compare-img' src = "assets/images/Fig4.png" alt='Latitude vs. Wind Speed'></a>
-                        <br>
-                    </div>   
-                </div>
-            </div>
-          </div>
         </div>
-  
-      </div>
+        <div class = 'row'>
+            <div class = 'col-md-6'>
+                <h4 class="sub-header">vs. Max Temperature</h4>
+                <a href = '#'><img class = "compare-img" src = "assets/images/Fig1.png" alt='Latitude vs. Max Temperature'></a>
+            </div>
+            <div class = 'col-md-6'>
+                <h4 class="sub-header">vs. Humidity</h4>
+                <a href = '#'><img class = "compare-img" src = "assets/images/Fig2.png" alt='Latitude vs. Humidity'></a>
+            </div>
+        </div>
+        <div class = 'row'>
+            <div class = 'col-md-6'>
+                <h4 class="sub-header">vs. Cloudiness</h4>
+                <a href = '#'><img class = "compare-img" src = "assets/images/Fig3.png" alt='Latitude vs. Cloudiness'></a>
+            </div>
+            <div class = 'col-md-6'>
+                <h4 class="sub-header">vs. Wind Speed</h4>
+                <a href = '#'><img class = "compare-img" src = "assets/images/Fig4.png" alt='Latitude vs. Wind Speed'></a>
+            </div>
+            </div>
+        </div>
+    </div>
 
 </body>
 
