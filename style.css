@@ -1,5 +1,6 @@
 .back {
     background-color: #d3d3d3;
+    float: center;
 }
 .navbar-brand {
     background-color:  #5bc0de;
@@ -12,12 +13,10 @@
 .background{
     background-color: white;
 }
-.box {
-    padding: 30px;
-}
 .block {
     background-color: white;
-    margin-top: 50px
+    margin-top: 50px;
+    padding: 30px;
 }
 .img-align {
     float: left;
@@ -34,7 +33,18 @@
     font-family: serif;
 }
 
-@media (max-width: 650px) {
+.compare-img {
+    width:100%;
+}
+.sub-header {
+    text-align: center;
+    color: #00aca7;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: serif;
+}
+
+@media (max-width: 700px) {
 .background {
     background-color: #5bc0de;
 }
