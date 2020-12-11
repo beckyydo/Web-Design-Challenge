@@ -13,7 +13,7 @@
   
 <body class = "back">
     <nav class="navbar navbar-expand-lg background">
-        <h1 class="navbar-brand">Latitude</h1>
+        <a href ='index.html'><h1 class="navbar-brand">Latitude</h1></a>
         <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -26,35 +26,66 @@
                     Plot
                     </a>
                     <div class="dropdown-menu text-dark" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item " href="#">Max Temperature</a>
-                        <a class="dropdown-item" href="#">Humidity</a>
-                        <a class="dropdown-item" href="#">Cloudiness</a>
-                        <a class="dropdown-item" href="#">Wind Speed</a>
+                        <a class="dropdown-item " href="maxtemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="cloud.html">Cloudiness</a>
+                        <a class="dropdown-item" href="wind.html">Wind Speed</a>
                     </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-dark" href="comparison.html">Comparison</a>
                 </li>
                 <li class="nav-item ">
-                    <a class="nav-link text-dark" href="#">Data</a>
+                    <a class="nav-link text-dark" href="data.html">Data</a>
                 </li>
             </ul>
         </div>
     </nav>
-    <div class ='container block'>
-        <h3 class="header-style">Data</h3>
-        <hr>
-        The following table includes all of the data used for plotting during this project.
-        <div class ="table-responsive-sm">
-
+    <div class = "container">
+        <div class = 'row'> 
+          <div class = 'col-md-8'>
+            <div class = 'box block'>
+                <h3 class="header-style">Cloudiness</h3>
+                <hr/>
+                <img src = "assets/images/Fig3.png" class = "float-center compare-img" alt='Latitude vs. Cloudiness'>
+                Need analysis
+            </div>
+         </div>
+        
+        
+        <div class = 'col-md-4'>
+            <div class = 'box block'>
+                <h3 class="header-style">Visualizations</h3>
+                <hr/>
+                <div class = 'row'>
+                    <div class = 'col-md-6'>
+                        <a href='maxtemp.html'><img class = 'compare-img' src = "assets/images/Fig1.png" alt='Latitude vs. Max Temperature'></a>
+                    </div>
+                    <div class = 'col-md-6'>
+                        <a href='humidity.html'><img class = 'compare-img' src = "assets/images/Fig2.png" alt='Latitude vs. Humidity'></a>
+                    </div>
+                </div> 
+                <div class = 'row'> 
+                    <div class = 'col-md-6'> 
+                        <a href='cloud.html' class = "active" aria-pressed="true"><img class = 'compare-img' src = "assets/images/Fig3.png" alt='Latitude vs. Cloudiness'></a>
+                    </div>
+                    <div class = 'col-md-6'>
+                        <a href='wind.html'><img class = 'compare-img' src = "assets/images/Fig4.png" alt='Latitude vs. Wind Speed'></a>
+                        <br>
+                    </div>   
+                </div>
+            </div>
+          </div>
         </div>
-    </div>
+  
+      </div>
+
 </body>
-    
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        
+    
 </html>
