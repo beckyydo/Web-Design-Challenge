@@ -43,7 +43,9 @@
     font-size: 25px;
     font-family: serif;
 }
-
+.border-active {
+    border: 2px solid #5bc0de;
+}
 @media (max-width: 700px) {
 .background {
     background-color: #5bc0de;
