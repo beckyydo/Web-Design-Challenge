@@ -1,3 +1,4 @@
+/*Nav Bar*/
 .back {
     background-color: #d3d3d3;
     float: center;
@@ -11,13 +12,18 @@
     font-size: 25px;
 }
 .background{
-    background-color: white;
+    background-color: #5bc0de;
 }
 .block {
     background-color: white;
     margin-top: 50px;
     padding: 30px;
 }
+nav{
+    position: fixed;
+}
+
+/*Image*/
 .img-align {
     float: left;
     width: 50%;
@@ -45,9 +51,4 @@
 }
 .border-active {
     border: 2px solid #5bc0de;
-}
-@media (max-width: 750px) {
-.background {
-    background-color: #5bc0de;
-}
 }
